@@ -3,11 +3,11 @@ import styled from 'styled-components'
 export const CardExperiencia = styled.div`
         background-color: #151515;
        
-        width: 350px;
-        height: 180px;
-        border: 1px solid red;
-        border-image: linear-gradient(to right, #86eb88, #2a7e2d) 1;
-        margin: 10px;
+        width: 90%;
+        height: 160px;
+        border-left: 4px solid;
+        border-image: linear-gradient(to bottom, #86eb88, #2a7e2d) 1;
+        margin: 12px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -15,14 +15,14 @@ export const CardExperiencia = styled.div`
         img {
             width: 150px;
             height: 150px;
-            margin: 0 5px;
+            margin: 0 30px;
         }
         div {
-            width: 100%;
-            height: 80%;
+            
+            width: 70%;
+            height: 100%;
             display: flex;
-            flex-direction: column;
-            justify-content: center;
+            flex-direction: column;            
             align-items: center;
         }
         h1 {
@@ -34,7 +34,7 @@ export const CardExperiencia = styled.div`
             width: 70%;
             margin: 5px;
             text-align: center;
-            height: 30%;
+            height: 80px;
             font-size: 17px;
             margin-top: 10px;
             background-color: #202020;

@@ -9,9 +9,9 @@ export default function Conhecimentos(){
             <Links>
                 <h1>Links</h1>
                 <div>
-                    <a href="/"><img src="images/linkedin.png" alt="" /></a>
-                    <a href="/"><img src="images/github.png" alt="" /></a>
-                    <a href="/"><img src="images/email.png" alt="" /></a>
+                    <a href="https://www.linkedin.com/in/julio-cesar-siqueira-torres-55a5a5204/"><img src="images/linkedin.png" alt="" /></a>
+                    <a href="https://github.com/juliout"><img src="images/github.png" alt="" /></a>
+                    <a href="mailto:juliocst1993@gmail.com"><img src="images/email.png" alt="" /></a>
                     <a href="https://wa.me/5521973088031"><img src="images/whatsapp.png" alt="" /></a>
                 </div>
             </Links>

@@ -24,8 +24,9 @@ export const Box = styled.div`
     color: white;
     width: 80%;
     min-width: 800px ;
-    height: 50vh;
+    height: ${ props => props.height ? props.height : '50vh'};
     min-height: 450px;
     display: flex;
     flex-direction: ${props => props.direction ? 'column' : 'none'};
+    justify-content: ${props => props.direction? 'space-between' : 'none'};
 `

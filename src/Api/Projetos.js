@@ -15,7 +15,7 @@ export const ProjetoObj = [
         texto : 'Projeto RioG, site feito para buscar usurios na api da RiotGames, funciona com busca em varias apis.',
         fonte : 'https://www.linkedin.com/feed/update/urn:li:activity:6852233646431051777/',
         img : 'images/riotg.png',
-        git : 'https://www.linkedin.com/posts/julio-cesar-siqueira-torres-55a5a5204_essa-semana-fiz-esse-projetinho-de-estudo-activity-6852233646431051777-PexH/'
+        git : 'https://github.com/juliout/projetinhoRiog'
     },
     
 

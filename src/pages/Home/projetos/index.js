@@ -50,7 +50,7 @@ export default function Projetos(){
 
 
     return (
-        <Box colorBg='#050505' direction={true}>
+        <Box colorBg='#050505' direction='true'>
             <ProjetosBox>
                 <h1>Projetos</h1>
 

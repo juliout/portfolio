@@ -7,7 +7,7 @@ export const CaixaExp = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: auto;
+    overflow: hidden;
     margin: 5px;
 
     h1 {
@@ -27,7 +27,27 @@ export const ExpCards = styled.div`
     height: auto;
     
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
 
 `
+
+export const SetaMaisExperiencia = styled.div`
+    width: 3%;
+    height: 60px;
+    
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    }
+    img:hover {
+        width: 28px;
+        height: 28px;
+    }
+` 
