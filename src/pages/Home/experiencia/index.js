@@ -33,7 +33,7 @@ export default function Experiencia(){
                 </ExpCards>
             </CaixaExp>
             <SetaMaisExperiencia>
-                <img  onClick={()=> MaisExp()} src="images/setabaixo.png" alt="mais Experiencias" />
+                <img  onClick={()=> MaisExp()} src="images/baixo.png" alt="mais Experiencias" />
             </SetaMaisExperiencia>
         </Box>
     )
