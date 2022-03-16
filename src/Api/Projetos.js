@@ -2,7 +2,7 @@ export const ProjetoObj = [
     {
         texto : 'Projeto Food, Projeto Consiste em buscar em uma api uma lista de parceiros. tambem posso buscar....',
         fonte : 'https://www.youtube.com/watch?v=3vaLbCvSI2Y',
-        img : 'images/projetofood.png',
+        img : 'images/food.png',
         git : 'https://github.com/juliout/project-foodco' ,
     },
     {

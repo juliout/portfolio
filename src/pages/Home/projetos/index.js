@@ -60,7 +60,7 @@ export default function Projetos(){
 
                     <div className="projetosDiv">
                         <a href= {ProjetoObj[contador].fonte} >
-                            <img src={ProjetoObj[contador].img} alt="" />
+                            <img src={ProjetoObj[contador].img} alt="imagemprojeto" />
                         </a>
                     
                         <div className="conteudoProjetos">
@@ -70,7 +70,7 @@ export default function Projetos(){
                             <a href={ProjetoObj[contador].git}><button>GitHub do projeto</button></a>
                         </div>
                     </div>
-                    <img className="buttonSeta" src="images/setadireita.png" alt="" onClick={()=> contadorMais()}/>
+                    <img className="buttonSeta" src="images/setadireita.png" alt="setadireita" onClick={()=> contadorMais()}/>
                 </ProjetosDiv>
 
             </ProjetosBox>

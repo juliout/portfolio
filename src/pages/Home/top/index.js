@@ -19,7 +19,7 @@ export default function Top(){
                     também sobre minhas experiencias, estudos e meus conhecimentos em desenvolvimento.
                 </span>
 
-                <p> <img src="images/setabaixo.png" alt="" /> Mais sobre mim abaixo. <img src="images/setabaixo.png" alt="" /></p> 
+                <p> <img src="images/baixo.png" alt="setabaixo" /> Mais sobre mim abaixo. <img src="images/baixo.png" alt="setabaixo" /></p> 
             </BoxMore>
         </Box>
     )
