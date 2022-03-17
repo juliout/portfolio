@@ -50,7 +50,7 @@ export default function Projetos(){
 
 
     return (
-        <Box colorBg='#050505' direction='true'>
+        <Box colorBg='#050505' direction="true">
             <ProjetosBox>
                 <h1>Projetos</h1>
 
@@ -64,6 +64,7 @@ export default function Projetos(){
                         </a>
                     
                         <div className="conteudoProjetos">
+                            <h1>{ProjetoObj[contador].nome}</h1>
                             <span>
                             {ProjetoObj[contador].texto}
                             </span>

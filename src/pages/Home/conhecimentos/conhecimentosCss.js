@@ -45,7 +45,7 @@ export const Links = styled.div`
     }
     img:hover {
         background: linear-gradient(87deg, rgba(134,235,136,1) 0%, rgba(42,126,45,1) 59%);
-        cursor: pointer;
+        
     }
 `
 
@@ -75,32 +75,4 @@ export const BoxConhecimentos = styled.div`
         justify-content: space-around;
         
     }
-
-    /* .boxLogo {
-        width: 10%;
-        min-width: 115px;
-        height: 110px;
-        background-color: red;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 10px;
-
-    }
-    .boxLogo img {
-        width: 80px;
-        height: 80px;        
-    }
-
-    .boxLogo img:hover {
-        cursor: pointer;
-        width: 90px;
-        height: 90px;        
-    }
-
-    p {
-        color:  white;
-        font-size: 15px;
-    } */
 `

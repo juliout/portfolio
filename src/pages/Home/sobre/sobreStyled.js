@@ -13,7 +13,7 @@ export const BoxSobre = styled.div`
         width: 17%;
         min-width: 200px;
         max-width: 300px;
-        height: 55%;
+        height: 60%;
         
         padding: 10px;
         border: 3px solid red;

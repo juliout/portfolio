@@ -11,16 +11,24 @@ export const LogoDiv = styled.div`
         justify-content: center;
         margin-top: 30px;
         padding: 30px;
+        border : 1px solid #151515;
+        transition: 0.5s;
 
+    :hover {
+        border: 3px solid green;
+        border-radius: 2px;
+        transition: 0.5s;
+    }
     img {
         width: 80px;
         height: 80px;        
     }
 
     img:hover {
-        cursor: pointer;
+        
         width: 90px;
-        height: 90px;        
+        height: 90px;
+        transition: 0.5s;        
     }
 
     p {

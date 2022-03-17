@@ -2,7 +2,7 @@ import { Box } from "../styled";
 import { BoxSobre} from './sobreStyled'
 export default function Sobre(){
     return(
-        <Box colorBg='#050505'>
+        <Box colorBg='#050505' id='ancoraSobre'>
             <BoxSobre>
                 <img src="images/julioprofile.png" alt="" />
 

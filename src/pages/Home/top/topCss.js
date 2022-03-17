@@ -53,17 +53,18 @@ export const BoxMore = styled.div`
         padding-top: 20px;
         margin-bottom: 40px;
     }
-    p {
-        color: white;
-        cursor: pointer;
-    }
-
-    p:hover {
-        color: #529c54;
-    }
-
+ 
     img {
         width: 15px;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        margin: 0 10px;
+        text-align: center;
+    }
+    a:hover {
+        color: #529c54;
     }
 
 `

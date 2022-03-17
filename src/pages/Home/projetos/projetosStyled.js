@@ -75,15 +75,19 @@ export const ProjetosDiv = styled.div`
     .conteudoProjetos {
         width: 50%;
         min-width: 150px;
-        height: 60%;
+        height: 70%;
         background-color: #151515;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         text-align: center;
-        padding: 15px;
+        padding: 10px;
         
+    }
+    .conteudoProjetos h1 {
+        padding: 0;
+        margin-bottom: 10px;
     }
     .conteudoProjetos span {
         height: 70%;
