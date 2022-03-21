@@ -9,7 +9,7 @@ export default function Experiencia(){
     const [tamanoDiv, setTamanhoDiv] = useState (51)
 
     function MaisExp(){
-        const a = tamanoDiv + 22
+        const a = experienciasObj.length-1 * 25
         setTamanhoDiv(a)
     }
 
@@ -18,18 +18,6 @@ export default function Experiencia(){
             <CaixaExp>
                 <h1>Estudos e Experiências</h1>
                 <ExpCards>
-                    {/* <CardExp
-                        image='digitalhouse.jpg' nome='Digital House'
-                        data='02/21 à 09/21'
-                    />
-                    <CardExp
-                        image='unicesumar.jpg' nome='Faculdade Unicesumar'
-                        data='02/21 à 09/21'
-                    />  
-                    <CardExp
-                        image='unicesumar.jpg' nome='Faculdade Unicesumar'
-                        data='02/21 à 09/21'
-                    />                               */}
                     {
                         experienciasObj.map( item => {
                             const {id , nome , image, data} = item
@@ -41,7 +29,7 @@ export default function Experiencia(){
                 </ExpCards>
             </CaixaExp>
             <SetaMaisExperiencia>
-                <img  onClick={()=> MaisExp()} src="images/baixo.png" alt="mais Experiencias" />
+                <img  onClick={() => MaisExp()} src="images/baixo.png" alt="mais Experiencias" />
             </SetaMaisExperiencia>
         </Box>
     )
